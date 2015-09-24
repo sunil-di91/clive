@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+	<global>
+		<page>
+			<layouts>
+			<custom_page_home>
+					<label>Home Page</label>
+					<template>page/custom/home.phtml</template>
+				</custom_page_home>
+				
+				<custom_page_list>
+					<label>Listing Page</label>
+					<template>page/custom/listing-page.phtml</template>
+				</custom_page_list>
+			</layouts>
+		</page>
+	</global>
+</config>

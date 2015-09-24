@@ -1,0 +1,6 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	.header-right ul li i, footer .f_span1 li i, .footernewsletter button, .footernewsletter button:hover, .footer-content .openfooter{
+	 background: url(../images/icon2x.png) no-repeat;
+	 background-size:100px 500px;
+}
+}

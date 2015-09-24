@@ -1,0 +1,85 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<footer>
+    <div class="footer-container">
+      <!--  <div class="footer-title">
+            <div class="row">
+                <div class="col span_4"></div>
+                <div class="col span_2">POLICIES</div>
+                <div class="col span_2">NO. 3 CLIVE ROAD</div>
+                <div class="col span_4">SIGN UP FOR NEWS & SPECIAL OFFERS</div>
+            </div>
+        </div>-->
+        <div class="footer-content">
+            <div class="row">
+                <div class="col f_span1">
+               	 <img src="<?php echo $this->getSkinUrl('images/footer-logo.jpg');?>" alt="" class="footer-logo">
+                    <ul>
+                        <li>SOCIAL</li><!--
+                        --><li class="instragram"><i></i></li><!--
+                        --> <li class="pintrest"><i></i></li><!--
+                         --><li class="twitter"><i></i></li>
+                    </ul>
+                </div>
+                <div class="col f_span2">
+                    <ul>
+                        <li>CARDS</li>
+                        <li class="card1"><i></i></li>
+                        <li class="card2"><i></i></li>
+                        <li class="card3"><i></i></li>
+                    </ul>
+                </div>
+                <div class="col f_span3">
+                <label>POLICIES</label>
+                    <ul>
+                        <li><a href="#">SHIPPING</a></li>
+                        <li><a href="#">TERMS & CONDITIONS</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col f_span4">
+                <label>NO. 3 CLIVE ROAD</label>
+					<ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PRESS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">STOCKISTS</a></li>
+                    </ul>
+                </div>
+                <div class="col f_span5"> 
+                
+                <label>SIGN UP FOR NEWS & SPECIAL OFFERS</label>
+                <?php echo $this->getLayout()->createBlock('newsletter/subscribe')->setTemplate('newsletter/subscribe.phtml')->toHtml(); ?>
+                
+                </div>
+            </div>
+            
+            <a href="javascript:void(0)" class="openfooter">open</a>
+        </div>
+    </div>
+</footer>
